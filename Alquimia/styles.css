@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+/* estilos inicio */
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    /* background-color: #171717; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.head {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+/* estilos navbar */
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+
+/* estilos header */
+header {
+    height: 110vh;
+    position: relative; /* Establece el contexto de posicionamiento */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.banner{
+    height: 900px;
+    width: 2000px;
+}
+
+header h2 {
+    position: absolute; /* Permite el posicionamiento absoluto */
+    top: 50%; /* Coloca el título en la mitad superior del contenedor */
+    left: 50%; /* Coloca el título en el centro horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Centra el título vertical y horizontalmente */
+    text-transform: uppercase;
+    padding: 10px; /* Espaciado interno del título (opcional) */
+}
+
+/* estilos frase */
+.frase{
+    position: center;
+    height: 50vh;
+}
+
+.frase p{
+    display: grid;
+    place-items: center;
+}
+
+/* estilos barra imagenes */
+
+.acsesos h2{
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+.container-a {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.card{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
+/* estilos galeria local */
+.galeria-local{
+    width: 50%;
+    margin-left: 400px;
+
+}
+
+/* estilos contacto */
+.container-form {
+    height: 50vh;
+    width: 100%;
+    /* max-width: 1100px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    background-color: #171717;
+    padding: 50px;
+}
+
+.info-form{
+    top: 15px;
+
+}
+
+
+.container-form h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+/* estilos quienes somos */
+
+.header-quien{
+   height: 50%;
+}
+
+.header-quien h2 {
+    position: absolute; /* Permite el posicionamiento absoluto */
+    top: 50%; /* Coloca el título en la mitad superior del contenedor */
+    left: 50%; /* Coloca el título en el centro horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Centra el título vertical y horizontalmente */
+    text-transform: uppercase;
+    padding: 10px; /* Espaciado interno del título (opcional) */
+}
+
+.banner-quien{
+    height: 400px;
+    width: 100%;
+}
+
+/* frase quien */
+
+.frase-quien{
+    height: 1000px
+}
+
+.contenido-quien{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    width: 50%;
+}
+
+.frase-quien h2{
+    padding: 50px;
+}
+
+.txt-quien{
+    font-size: 18px;
+    margin: 0;
+    padding: 50px;
+}
+
+/* estilo depilacion */
+
+.depilacion{
+    padding: 80px;
+}
+
+.contenido-depilacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    width: 50%;
+}
+
+.depilacion-img{
+    width: 400px;
+    height: 300px;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    
+}
+
+/* estilos masajes */
+.frase-masaje{
+    padding: 80px;
+}
+
+.masajes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px;
+}
+
+.img-masaje{
+    width: 300px;
+    height: 300px;
+}
+
+.masajes h2{
+    padding: 20px;
+}
+
+.masajes p{
+    padding: 30px;
+}
+
+/* estilos aparatologia */
+.aparatologia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aparatologia h2{
+    padding: 10px;
+}
+
+.img-aparatologia{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
